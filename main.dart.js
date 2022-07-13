@@ -22076,7 +22076,7 @@ a9g(a0,a1){var s=0,r=A.J(t.AS),q,p=2,o,n=[],m,l,k,j,i,h,g,f,e,d,c,b,a
 var $async$a9g=A.K(function(a2,a3){if(a2===1){o=a3
 s=p}while(true)switch(s){case 0:g=new A.rs(null,null,null,null)
 f=null
-e=A.fb("http://159.223.47.70/be-teman-niaga/public/api/login",0,null)
+e=A.fb("https://simplepos-api-dev.stellarix.id/api/login",0,null)
 d=t.N
 c=A.Z(["Content-Type","application/json"],d,d)
 b=B.Y.eO(A.Z(["username",a0,"password",a1],d,d))
@@ -22115,7 +22115,7 @@ a9e(){var s=0,r=A.J(t.hq),q,p=2,o,n=[],m,l,k,j,i,h,g,f
 var $async$a9e=A.K(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:k=new A.nn(null,null)
 j=null
-i=A.fb("http://159.223.47.70/be-teman-niaga/public/api/business_types",0,null)
+i=A.fb("https://simplepos-api-dev.stellarix.id/api/business_types",0,null)
 h=t.N
 g=A.Z(["Accept","application/json"],h,h)
 A.cc("URL & HEADER BUSINESS TYPE === "+A.d(i))
@@ -22147,7 +22147,7 @@ a9h(a,a0,a1,a2,a3){var s=0,r=A.J(t.jg),q,p=2,o,n=[],m,l,k,j,i,h,g,f,e,d,c,b
 var $async$a9h=A.K(function(a4,a5){if(a4===1){o=a5
 s=p}while(true)switch(s){case 0:h=new A.t_(null,null,null)
 g=null
-f=A.fb("http://159.223.47.70/be-teman-niaga/public/api/register",0,null)
+f=A.fb("https://simplepos-api-dev.stellarix.id/api/register",0,null)
 e=t.N
 d=A.Z(["Content-Type","application/json","Accept","application/json"],e,e)
 c=B.Y.eO(A.Z(["phone",a,"password",a1,"name",a0,"email",a2,"store",a3],e,t.K))
@@ -22187,7 +22187,7 @@ j=t.z
 i=A.b(A.jd("GetStorage").c,"_concrete").kS(0,"user",j)
 h=null
 g=null
-f=A.fb("http://159.223.47.70/be-teman-niaga/public/api/customer_by_phones/"+a,0,null)
+f=A.fb("https://simplepos-api-dev.stellarix.id/api/customer_by_phones/"+a,0,null)
 e=A.d(i.b)
 d=t.N
 c=A.Z(["Accept","application/json","Authorization","Bearer "+e],d,d)
@@ -22223,7 +22223,7 @@ var $async$a9c=A.K(function(a3,a4){if(a3===1){o=a4
 s=p}while(true)switch(s){case 0:i=new A.qy(null,null,null)
 h=A.b(A.jd("GetStorage").c,"_concrete").kS(0,"user",t.z)
 g=null
-f=A.fb("http://159.223.47.70/be-teman-niaga/public/api/customers",0,null)
+f=A.fb("https://simplepos-api-dev.stellarix.id/api/customers",0,null)
 e=A.d(h.b)
 d=t.N
 c=A.Z(["Content-Type","application/json","Authorization","Bearer "+e,"Accept","application/json"],d,d)
@@ -22265,7 +22265,7 @@ var $async$a9d=A.K(function(b9,c0){if(b9===1){o=c0
 s=p}while(true)switch(s){case 0:a9=new A.t5(null,null,null)
 b0=A.b(A.jd("GetStorage").c,"_concrete").kS(0,"user",t.z)
 b1=null
-b2=A.fb("http://159.223.47.70/be-teman-niaga/public/api/sales",0,null)
+b2=A.fb("https://simplepos-api-dev.stellarix.id/api/sales",0,null)
 b3=t.N
 b4=A.Z(["Content-Type","application/json","Authorization","Bearer "+A.d(b0.b),"Accept","application/json"],b3,b3)
 b5=B.Y.eO(A.Z(["customer_id",b7,"discount_amount",0,"discount_percentage",0,"total",b8,"payment_id",1,"note","-","store_id",b0.d.Q[0].c],b3,t.X))
@@ -22327,7 +22327,7 @@ var $async$LC=A.K(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:k=new A.t8(null,null)
 j=A.b(A.jd("GetStorage").c,"_concrete").kS(0,"user",t.z)
 i=null
-h=A.fb("http://159.223.47.70/be-teman-niaga/public/api/sales?"+a,0,null)
+h=A.fb("https://simplepos-api-dev.stellarix.id/api/sales?"+a,0,null)
 g=A.d(j.b)
 f=t.N
 e=A.Z(["Accept","application/json","Authorization","Bearer "+g],f,f)
@@ -22361,7 +22361,7 @@ var $async$a9f=A.K(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:k=new A.qz(null,null)
 j=A.b(A.jd("GetStorage").c,"_concrete").kS(0,"user",t.z)
 i=null
-h=A.fb("http://159.223.47.70/be-teman-niaga/public/api/customers?"+a,0,null)
+h=A.fb("https://simplepos-api-dev.stellarix.id/api/customers?"+a,0,null)
 g=A.d(j.b)
 f=t.N
 e=A.Z(["Accept","application/json","Authorization","Bearer "+g],f,f)
